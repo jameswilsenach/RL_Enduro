@@ -5,7 +5,7 @@ This repository is an archive of my Python 2.7 implementation of a Q-learning-ba
 
 # Reinforcement Learning: Coursework
 
-This repository contains the same agent interface for playing the Enduro game as the one you used in [coursework 1](https://github.com/ipab-rad/rl-cw1), however the sensing capabilities of the agent have been extended. Instead of just sensing the environment grid, the agent can now sense the road and the others in pixel coordinates as well as its own speed. The main difference is in the `sense` function which now has the following prototype:
+This repository contains the same agent interface for playing the Enduro game as the one you used in coursework 1 [an updated version can be found here](https://github.com/ipab-rad/rl-cw1), however the sensing capabilities of the agent have been extended. Instead of just sensing the environment grid, the agent can now sense the road and the others in pixel coordinates as well as its own speed. The main difference is in the `sense` function which now has the following prototype:
 
 `def sense(self, road, cars, speed, grid)`
 
